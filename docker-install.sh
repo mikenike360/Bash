@@ -17,5 +17,9 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
    
+echo ""
+echo "Installing Docker Community Edition"
+echo ""
+   
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
